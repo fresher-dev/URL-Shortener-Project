@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Link
+{% endblock %}
+
+
+{% block content %}
+
+<div class="mdc-card__content">
+  <p>Shortened URL: <a href="{{shortened_url}}" target="_blank">{{shortened_url}}</a></p>
+</div>
+
+{% endblock %}
